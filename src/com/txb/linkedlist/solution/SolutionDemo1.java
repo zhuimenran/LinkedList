@@ -37,8 +37,10 @@ public class SolutionDemo1 {
 		return head;
 	}
 	public static void main(String[] args) {
-		
+		int []nums = {1,2,35,6};
+		ListNode head =new ListNode(nums);
 			
+		System.out.println(head);
 	}
 
 }
