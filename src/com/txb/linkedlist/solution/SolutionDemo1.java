@@ -41,6 +41,9 @@ public class SolutionDemo1 {
 		ListNode head =new ListNode(nums);
 			
 		System.out.println(head);
+		
+		ListNode res = (new SolutionDemo1()).removeElements(head, 6);
+		System.out.println(res);
 	}
 
 }
