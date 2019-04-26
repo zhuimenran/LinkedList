@@ -1,5 +1,9 @@
 package com.txb.linkedlist.digui;
-
+/**
+ * 递归求数组和
+ * @author 13125
+ *@time 2019.4.26
+ */
 public class Sum {
 	public static int sum(int []arr) {
 		return sum(arr,0);
