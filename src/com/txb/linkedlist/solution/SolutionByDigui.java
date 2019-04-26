@@ -10,10 +10,10 @@ public class SolutionByDigui {
 		if(head == null) {
 			return head;
 		}
-		
+		//递归函数
 		ListNode res = removeElements(head.next, val);
 		
-		
+		//处理头节点
 		if(head.val == val) {
 			return res;
 		}else {
