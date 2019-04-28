@@ -5,7 +5,7 @@ import com.txb.linkedlist.util.LinkedList;
 public class Main {
 
 	public static void main(String[] args) {
-		//²âÊÔ
+		//ï¿½ï¿½ï¿½ï¿½
 		LinkedList<Integer> list = new LinkedList<Integer>();
 
 		for(int i = 0; i < 5; i++) {
@@ -22,6 +22,7 @@ public class Main {
 		System.out.println(list);
 		list.removeLast();
 		System.out.println(list);
+		System.out.println(list.contains(3));
 	}
 
 }
