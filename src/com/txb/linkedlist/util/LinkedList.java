@@ -122,7 +122,7 @@ public class LinkedList <E>{
 		Node cur = dummyHead.next;
 		
 		while(cur != null) {
-			if(cur.equals(e)) {
+			if(cur.e.equals(e)) {
 				return true;
 			}
 			cur  = cur.next;
