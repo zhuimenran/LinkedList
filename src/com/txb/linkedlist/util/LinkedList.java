@@ -1,15 +1,18 @@
 package com.txb.linkedlist.util;
 
 public class LinkedList <E>{
+	//节点类
 	private class Node{
 		public E e;
 		public Node next;
 		
+		//构造函数
 		public Node(E e, Node next) {
 			this.e = e;
 			this.next = next;
 		}
 		
+		//构造函数
 		public Node(E e) {
 			this.e = e;
 			this.next = null;
@@ -26,9 +29,12 @@ public class LinkedList <E>{
 		}
 	}
 	
+	//存储虚拟头节点
 	private Node dummyHead;//虚拟头节点
+	//节点数量
 	private int size;
 	
+	//构造函数，设置虚拟头节点
 	public LinkedList(){
 		dummyHead = new Node(null, null);
 		size = 0;
